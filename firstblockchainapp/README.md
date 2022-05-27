@@ -6,19 +6,23 @@
 * Basic Etheruem knowledge is assumed, [Truffle](https://trufflesuite.com/docs/truffle/quickstart/) and [Ganache](https://trufflesuite.com/docs/ganache/) need to be installed before continuing.
 
 ## File Structure:
-├── build
-│     ├── HelloWorld.json
-│     └── Migrations.json
-├── contracts
-│     ├── HelloWorld.sol
-│     └── Migrations.sol
-├── migrations
-│     ├── 1_initial_migration.js
-│     └── 2_deploy_hello_world.js
-│
-├── README.md
-│
-└── truffle-config.js
+
+```
+    ├── build
+    │     ├── HelloWorld.json
+    │     └── Migrations.json
+    ├── contracts
+    │     ├── HelloWorld.sol
+    │     └── Migrations.sol
+    ├── migrations
+    │     ├── 1_initial_migration.js
+    │     └── 2_deploy_hello_world.js
+    │
+    ├── README.md
+    │
+    └── truffle-config.js
+
+```
 
 ## Getting Started:
 ```sh
